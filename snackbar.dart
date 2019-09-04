@@ -13,7 +13,7 @@ class Alert extends StatelessWidget {
 _builderAlert(context) {
   return Builder(
     builder: (BuildContext context) {
-      Container(
+      return Container(
         width: double.infinity,
         color: Colors.yellow,
         child: Column(
